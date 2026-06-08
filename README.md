@@ -1,4 +1,4 @@
-### 안녕하세요, 보통 개발자 clang.engineer 입니다 👋
+### 안녕하세요, clang.engineer 입니다 👋
 
 통계학을 전공하다 C 언어를 만나 개발자가 되었습니다.  
 현재는 종합병원에서 데이터 수집·활용 프로그램(분석·시각화)을 개발하고 있습니다.
@@ -48,7 +48,7 @@ macOS 개발 환경 설정을 한곳에 모은 리포입니다.
 
 ### Blog
 
-[clang-engineer.github.io](https://clang-engineer.github.io) — 보통 개발자의 기록
+[clang-engineer.github.io](https://clang-engineer.github.io) — 컴파일되지 않는 생각들
 
 Neovim 설정, Spring Boot, 디자인 패턴, 쉘 스크립팅, Docker, AI 도구 등  
 개발하면서 배운 것들을 150여 편의 글로 기록하고 있습니다.
