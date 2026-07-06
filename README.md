@@ -47,15 +47,13 @@ My macOS development environment, all in one place.
 
 A single `./bootstrap.sh` sets up the whole environment.
 
-#### [toolbox](https://github.com/clang-engineer/toolbox)
+#### [devkit](https://github.com/clang-engineer/devkit)
 
-A collection of scripts, cheatsheets, and notes I use while developing.
+Curated dev cheatsheets, templates, and concept notes I keep handy.
 
-- **tools/** — practical scripts: git branch cleanup, bulk repo pull, disk cleanup, network switching, and more
-- **cheatsheets/** — quick references for git, docker, vim, tmux, fzf, jq, curl, rg, and others
-- **til/** — troubleshooting logs and today-I-learned notes
-- **templates/** — boilerplate like Docker Compose + Spring + Postgres
-- **analysis/** — per-project codebase analysis notes
+- **cheatsheets/** — quick references for git, docker, tmux, fzf, jq, ripgrep, curl, ssh, nginx, kubectl, and more
+- **templates/** — boilerplate like Docker Compose + Spring + Postgres, and a Makefile template
+- **notes/** — concept notes: CAP theorem, RSA/AES, SQL injection, SSH vs SSL, Neovim internals, DB ops tips
 
 ---
 
