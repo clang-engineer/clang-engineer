@@ -1,10 +1,10 @@
-### 안녕하세요, clang.engineer 입니다 👋
+### Hi, I'm clang.engineer 👋
 
-백엔드 중심의 소프트웨어 개발자입니다. 통계학을 전공했고, C 언어로 시작했습니다.  
-현재는 종합병원에서 데이터 수집·활용 프로그램(분석·시각화)을 개발하고 있습니다.
+A backend-focused software developer. I majored in statistics and started out with C.  
+These days I build data collection and analysis/visualization tools at a general hospital.
 
-프론트엔드까지 함께 다루며, 설계부터 인터페이스까지 한 흐름으로 만드는 것을 좋아합니다.  
-Neovim을 주력 에디터로 쓰며, 원리와 기본기를 중요하게 생각하고, 개발 환경을 꾸준히 다듬고 있습니다.
+I work across the frontend too, and I enjoy building things as one flow — from design all the way to the interface.  
+Neovim is my main editor. I care about fundamentals and how things work under the hood, and I keep refining my dev environment.
 
 ---
 
@@ -23,32 +23,44 @@ Neovim을 주력 에디터로 쓰며, 원리와 기본기를 중요하게 생각
 
 #### [dotfiles](https://github.com/clang-engineer/dotfiles)
 
-macOS 개발 환경 설정을 한곳에 모은 리포입니다.
+My macOS development environment, all in one place.
 
 - **Zsh** — oh-my-zsh, syntax-highlighting, autosuggestions, starship prompt
-- **Neovim** — LazyVim 기반 Lua 설정 + classic Vimscript 설정
+- **Neovim** — LazyVim-based Lua config + classic Vimscript config
 - **tmux** — vim-tmux-navigator, resurrect, continuum
-- **Git** — 멀티 계정 SSH, lazygit, gh CLI
-- **런타임 관리** — jenv(Java), nvm(Node), pyenv(Python), rbenv(Ruby)
-- **macOS** — Hammerspoon 윈도우 관리, Brewfile 패키지 관리
+- **Git** — multi-account SSH, lazygit, gh CLI
+- **Runtime management** — jenv (Java), nvm (Node), pyenv (Python), rbenv (Ruby)
+- **macOS** — Hammerspoon window management, Brewfile package management
 
-`./bootstrap.sh` 한 줄로 전체 환경을 세팅할 수 있습니다.
+A single `./bootstrap.sh` sets up the whole environment.
+
+#### [dadbod-vertica.nvim](https://github.com/clang-engineer/dadbod-vertica.nvim)
+
+A [Vertica](https://www.vertica.com/) adapter for [vim-dadbod](https://github.com/tpope/vim-dadbod), wired through the official `vsql` client.
+
+Brings the same URL-driven dadbod / dadbod-ui workflow you already use for PostgreSQL and MySQL to Vertica — schema browsing, query buffers, result splits, and completion.
+
+#### [jvm-env.nvim](https://github.com/clang-engineer/jvm-env.nvim)
+
+Auto-detects installed JDKs by major version and injects their paths into Neovim env vars — separate JDKs for jdtls (the language server) and Gradle (the build tool).
+
+Resolves the right JDK per OS across jEnv, SDKMAN, Homebrew, apt, and scoop, without touching your shell's `JAVA_HOME`.
 
 #### [toolbox](https://github.com/clang-engineer/toolbox)
 
-개발하면서 쓰는 스크립트, 치트시트, 메모를 모아둔 리포입니다.
+A collection of scripts, cheatsheets, and notes I use while developing.
 
-- **tools/** — Git 브랜치 정리, 리포 일괄 pull, 디스크 정리, 네트워크 전환 등 실용 스크립트
-- **cheatsheets/** — git, docker, vim, tmux, fzf, jq, curl, rg 등 빠른 참조용
-- **til/** — 트러블슈팅 기록과 오늘 배운 것
-- **templates/** — Docker Compose + Spring + Postgres 등 보일러플레이트
-- **analysis/** — 프로젝트별 코드베이스 분석 노트
+- **tools/** — practical scripts: git branch cleanup, bulk repo pull, disk cleanup, network switching, and more
+- **cheatsheets/** — quick references for git, docker, vim, tmux, fzf, jq, curl, rg, and others
+- **til/** — troubleshooting logs and today-I-learned notes
+- **templates/** — boilerplate like Docker Compose + Spring + Postgres
+- **analysis/** — per-project codebase analysis notes
 
 ---
 
 ### Blog
 
-[clang-engineer.github.io](https://clang-engineer.github.io) — 컴파일되지 않는 생각들
+[clang-engineer.github.io](https://clang-engineer.github.io) — thoughts that don't compile
 
-Neovim 설정, Spring Boot, 디자인 패턴, 쉘 스크립팅, Docker, AI 도구 등  
-개발하면서 배운 것들을 150여 편의 글로 기록하고 있습니다.
+Neovim setup, Spring Boot, design patterns, shell scripting, Docker, AI tooling, and more —  
+over 150 posts documenting what I've learned along the way.
