@@ -1,7 +1,7 @@
 ### Hi, I'm clang.engineer 👋
 
 A backend-focused software developer. I majored in statistics and started out with C.  
-These days I build data collection and analysis/visualization tools at a general hospital.
+These days I build data collection and analysis/visualization tools for general hospitals.
 
 I work across the frontend too, and I enjoy building things as one flow — from design all the way to the interface.  
 Neovim is my main editor. I care about fundamentals and how things work under the hood, and I keep refining my dev environment.
@@ -12,6 +12,7 @@ Neovim is my main editor. I care about fundamentals and how things work under th
 
 **Backend** — Java · Kotlin · Spring Boot · Spring Batch · JPA · Python  
 **Frontend** — TypeScript · JavaScript · React  
+**Data** — Oracle · MSSQL · Tibero · PostgreSQL · MySQL · Vertica · Elasticsearch  
 **Systems** — C · C++  
 **Infra** — Docker · Nginx · Linux  
 **Editor** — Neovim (LazyVim)  
@@ -20,6 +21,18 @@ Neovim is my main editor. I care about fundamentals and how things work under th
 ---
 
 ### Repositories
+
+#### [jvm-env.nvim](https://github.com/clang-engineer/jvm-env.nvim)
+
+Auto-detects installed JDKs by major version and injects their paths into Neovim env vars — separate JDKs for jdtls (the language server) and Gradle (the build tool).
+
+Resolves the right JDK per OS across jEnv, SDKMAN, Homebrew, apt, and scoop, without touching your shell's `JAVA_HOME`.
+
+#### [dadbod-vertica.nvim](https://github.com/clang-engineer/dadbod-vertica.nvim)
+
+A [Vertica](https://www.vertica.com/) adapter for [vim-dadbod](https://github.com/tpope/vim-dadbod), wired through the official `vsql` client.
+
+Brings the same URL-driven dadbod / dadbod-ui workflow you already use for PostgreSQL and MySQL to Vertica — schema browsing, query buffers, result splits, and completion.
 
 #### [dotfiles](https://github.com/clang-engineer/dotfiles)
 
@@ -33,18 +46,6 @@ My macOS development environment, all in one place.
 - **macOS** — Hammerspoon window management, Brewfile package management
 
 A single `./bootstrap.sh` sets up the whole environment.
-
-#### [dadbod-vertica.nvim](https://github.com/clang-engineer/dadbod-vertica.nvim)
-
-A [Vertica](https://www.vertica.com/) adapter for [vim-dadbod](https://github.com/tpope/vim-dadbod), wired through the official `vsql` client.
-
-Brings the same URL-driven dadbod / dadbod-ui workflow you already use for PostgreSQL and MySQL to Vertica — schema browsing, query buffers, result splits, and completion.
-
-#### [jvm-env.nvim](https://github.com/clang-engineer/jvm-env.nvim)
-
-Auto-detects installed JDKs by major version and injects their paths into Neovim env vars — separate JDKs for jdtls (the language server) and Gradle (the build tool).
-
-Resolves the right JDK per OS across jEnv, SDKMAN, Homebrew, apt, and scoop, without touching your shell's `JAVA_HOME`.
 
 #### [toolbox](https://github.com/clang-engineer/toolbox)
 
