@@ -30,9 +30,9 @@ Published on PyPI as `harlequin-h2`, and accepted into Harlequin's official comm
 
 #### [harlequin-odbc-vertica](https://github.com/clang-engineer/harlequin-odbc-vertica)
 
-A Vertica-specific Harlequin ODBC adapter that handles Vertica catalog and column-metadata behavior on top of the standard ODBC integration.
+A Harlequin community adapter for Vertica over ODBC, with Vertica-specific catalog and column metadata compatibility fixes.
 
-Published on PyPI as `harlequin-odbc-vertica`; official Harlequin community-adapter documentation is being proposed via [tconbeer/harlequin-web#163](https://github.com/tconbeer/harlequin-web/pull/163).
+Published on PyPI as `harlequin-odbc-vertica`. The official Harlequin documentation PR is currently open at [tconbeer/harlequin-web#163](https://github.com/tconbeer/harlequin-web/pull/163).
 
 #### [jvm-env.nvim](https://github.com/clang-engineer/jvm-env.nvim)
 
