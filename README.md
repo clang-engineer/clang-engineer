@@ -20,19 +20,25 @@ Neovim is my main editor. I care about fundamentals and how things work under th
 
 ---
 
-### Repositories
+### Open Source
+
+#### [harlequin-h2](https://github.com/clang-engineer/harlequin-h2)
+
+A community adapter that connects [Harlequin](https://harlequin.sh/) to H2 databases over JDBC, supporting embedded file, memory, and TCP modes.
+
+Published on PyPI as `harlequin-h2`, and accepted into Harlequin's official community-adapter documentation via [tconbeer/harlequin-web#162](https://github.com/tconbeer/harlequin-web/pull/162).
 
 #### [jvm-env.nvim](https://github.com/clang-engineer/jvm-env.nvim)
 
 Auto-detects installed JDKs by major version and injects their paths into Neovim env vars — separate JDKs for jdtls (the language server) and Gradle (the build tool).
 
-Resolves the right JDK per OS across jEnv, SDKMAN, Homebrew, apt, and scoop, without touching your shell's `JAVA_HOME`.
+Resolves the right JDK per OS across jEnv, SDKMAN, Homebrew, apt, and scoop, without touching your shell's `JAVA_HOME`. Listed in [awesome-neovim](https://github.com/rockerBOO/awesome-neovim) via PR [#2365](https://github.com/rockerBOO/awesome-neovim/pull/2365).
 
 #### [dadbod-vertica.nvim](https://github.com/clang-engineer/dadbod-vertica.nvim)
 
 A [Vertica](https://www.vertica.com/) adapter for [vim-dadbod](https://github.com/tpope/vim-dadbod), wired through the official `vsql` client.
 
-Brings the same URL-driven dadbod / dadbod-ui workflow you already use for PostgreSQL and MySQL to Vertica — schema browsing, query buffers, result splits, and completion.
+Brings the same URL-driven dadbod / dadbod-ui workflow you already use for PostgreSQL and MySQL to Vertica — schema browsing, query buffers, result splits, and completion. Listed in [awesome-neovim](https://github.com/rockerBOO/awesome-neovim) via PR [#2355](https://github.com/rockerBOO/awesome-neovim/pull/2355).
 
 #### [dotfiles](https://github.com/clang-engineer/dotfiles)
 
