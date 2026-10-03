@@ -16,23 +16,23 @@ Neovim is my main editor. I care about fundamentals and how things work under th
 **Systems** — C · C++  
 **Infra** — Docker · Nginx · Linux  
 **Editor** — Neovim (LazyVim)  
-**Tools** — Git · tmux · fzf · ripgrep · Claude Code
+**Tools** — Git · tmux · fzf · ripgrep · Claude Code · Pi
 
 ---
 
-### Open Source
+### Open Source Packages
 
 #### [harlequin-h2](https://github.com/clang-engineer/harlequin-h2)
 
 A community adapter that connects [Harlequin](https://harlequin.sh/) to H2 databases over JDBC, supporting embedded file, memory, and TCP modes.
 
-Published on PyPI as `harlequin-h2`, and accepted into Harlequin's official community-adapter documentation via [tconbeer/harlequin-web#162](https://github.com/tconbeer/harlequin-web/pull/162).
+Published on PyPI as [`harlequin-h2`](https://pypi.org/project/harlequin-h2/), and accepted into Harlequin's official community-adapter documentation via [tconbeer/harlequin-web#162](https://github.com/tconbeer/harlequin-web/pull/162).
 
 #### [harlequin-odbc-vertica](https://github.com/clang-engineer/harlequin-odbc-vertica)
 
 A Harlequin community adapter for Vertica over ODBC, with Vertica-specific catalog and column metadata compatibility fixes.
 
-Published on PyPI as `harlequin-odbc-vertica`. The official Harlequin documentation PR is currently open at [tconbeer/harlequin-web#163](https://github.com/tconbeer/harlequin-web/pull/163).
+Published on PyPI as [`harlequin-odbc-vertica`](https://pypi.org/project/harlequin-odbc-vertica/). The official Harlequin documentation PR is currently open at [tconbeer/harlequin-web#163](https://github.com/tconbeer/harlequin-web/pull/163).
 
 #### [jvm-env.nvim](https://github.com/clang-engineer/jvm-env.nvim)
 
@@ -46,6 +46,25 @@ A [Vertica](https://www.vertica.com/) adapter for [vim-dadbod](https://github.co
 
 Brings the same URL-driven dadbod / dadbod-ui workflow you already use for PostgreSQL and MySQL to Vertica — schema browsing, query buffers, result splits, and completion. Listed in [awesome-neovim](https://github.com/rockerBOO/awesome-neovim) via PR [#2355](https://github.com/rockerBOO/awesome-neovim/pull/2355).
 
+#### [pi-extensions](https://github.com/clang-engineer/pi-extensions)
+
+A small monorepo for [Pi](https://pi.dev/) coding-agent extensions.
+
+The first package, [`@clang.engineer/pi-notify`](https://www.npmjs.com/package/@clang.engineer/pi-notify), sends completion and permission-request notifications using Pi lifecycle events such as `agent_settled` and `permissions:ask`. It started as a personal dotfiles extension and was extracted into a public npm package with `pi-package` metadata for Pi's package catalog.
+
+---
+
+### Upstream Contributions
+
+- [anomalyco/opentui#1460](https://github.com/anomalyco/opentui/pull/1460) — fixed tmux terminal capability replies so responses stay in the pane that requested them.
+- [tconbeer/harlequin-web#162](https://github.com/tconbeer/harlequin-web/pull/162) — documented the H2 community adapter in Harlequin's official docs.
+- [rockerBOO/awesome-neovim#2355](https://github.com/rockerBOO/awesome-neovim/pull/2355), [#2365](https://github.com/rockerBOO/awesome-neovim/pull/2365) — added `dadbod-vertica.nvim` and `jvm-env.nvim` to awesome-neovim.
+- [Dking08/textual-vim-textarea#2](https://github.com/Dking08/textual-vim-textarea/pull/2) — added word and quote text objects.
+
+---
+
+### Projects & Notes
+
 #### [dotfiles](https://github.com/clang-engineer/dotfiles)
 
 My macOS development environment, all in one place.
@@ -57,7 +76,7 @@ My macOS development environment, all in one place.
 - **Runtime management** — jenv (Java), nvm (Node), pyenv (Python), rbenv (Ruby)
 - **macOS** — Hammerspoon window management, Brewfile package management
 
-A single `./bootstrap.sh` sets up the whole environment.
+Managed with chezmoi so the same setup can be reviewed, diffed, and applied reproducibly.
 
 #### [devkit](https://github.com/clang-engineer/devkit)
 
@@ -67,11 +86,9 @@ Curated dev cheatsheets, templates, and concept notes I keep handy.
 - **templates/** — boilerplate like Docker Compose + Spring + Postgres, and a Makefile template
 - **notes/** — concept notes: CAP theorem, RSA/AES, SQL injection, SSH vs SSL, Neovim internals, DB ops tips
 
----
+#### [clang-engineer.github.io](https://github.com/clang-engineer/clang-engineer.github.io)
 
-### Blog
+My technical blog source.
 
-[clang-engineer.github.io](https://clang-engineer.github.io) — thoughts that don't compile
-
-Neovim setup, Spring Boot, design patterns, shell scripting, Docker, AI tooling, and more —  
-over 150 posts documenting what I've learned along the way.
+[clang-engineer.github.io](https://clang-engineer.github.io) — thoughts that don't compile.  
+Neovim setup, Spring Boot, design patterns, shell scripting, Docker, terminal tooling, AI agents, and more.
