@@ -54,15 +54,6 @@ The first package, [`@clang.engineer/pi-notify`](https://www.npmjs.com/package/@
 
 ---
 
-### Upstream Contributions
-
-- [anomalyco/opentui#1460](https://github.com/anomalyco/opentui/pull/1460) — fixed tmux terminal capability replies so responses stay in the pane that requested them.
-- [tconbeer/harlequin-web#162](https://github.com/tconbeer/harlequin-web/pull/162) — documented the H2 community adapter in Harlequin's official docs.
-- [rockerBOO/awesome-neovim#2355](https://github.com/rockerBOO/awesome-neovim/pull/2355), [#2365](https://github.com/rockerBOO/awesome-neovim/pull/2365) — added `dadbod-vertica.nvim` and `jvm-env.nvim` to awesome-neovim.
-- [Dking08/textual-vim-textarea#2](https://github.com/Dking08/textual-vim-textarea/pull/2) — added word and quote text objects.
-
----
-
 ### Projects & Notes
 
 #### [dotfiles](https://github.com/clang-engineer/dotfiles)
