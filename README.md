@@ -50,7 +50,7 @@ Brings the same URL-driven dadbod / dadbod-ui workflow you already use for Postg
 
 A small monorepo for [Pi](https://pi.dev/) coding-agent extensions.
 
-The first package, [`@clang.engineer/pi-notify`](https://www.npmjs.com/package/@clang.engineer/pi-notify), sends completion and permission-request notifications using Pi lifecycle events such as `agent_settled` and `permissions:ask`. It started as a personal dotfiles extension and was extracted into a public npm package with `pi-package` metadata for Pi's package catalog.
+Published packages include [`@clang.engineer/pi-notify`](https://www.npmjs.com/package/@clang.engineer/pi-notify), which sends completion and permission-request notifications using Pi lifecycle events, and [`@clang.engineer/pi-workloop`](https://www.npmjs.com/package/@clang.engineer/pi-workloop), which adds bounded automatic continuation for unattended multi-step work. Both started as personal dotfiles extensions and were extracted into public npm packages with `pi-package` metadata for Pi's package catalog.
 
 ---
 
