@@ -20,19 +20,13 @@ I care about fundamentals and how things work under the hood — runtimes, opera
 
 ---
 
-### Open Source Packages
+### Featured Open Source
 
 #### [harlequin-h2](https://github.com/clang-engineer/harlequin-h2)
 
 A community adapter that connects [Harlequin](https://harlequin.sh/) to H2 databases over JDBC, supporting embedded file, memory, and TCP modes.
 
 Published on PyPI as [`harlequin-h2`](https://pypi.org/project/harlequin-h2/), and accepted into Harlequin's official community-adapter documentation via [tconbeer/harlequin-web#162](https://github.com/tconbeer/harlequin-web/pull/162).
-
-#### [harlequin-odbc-vertica](https://github.com/clang-engineer/harlequin-odbc-vertica)
-
-A Harlequin community adapter for Vertica over ODBC, with Vertica-specific catalog and column metadata compatibility fixes.
-
-Published on PyPI as [`harlequin-odbc-vertica`](https://pypi.org/project/harlequin-odbc-vertica/). The official Harlequin documentation PR is currently open at [tconbeer/harlequin-web#163](https://github.com/tconbeer/harlequin-web/pull/163).
 
 #### [jvm-env.nvim](https://github.com/clang-engineer/jvm-env.nvim)
 
@@ -50,11 +44,25 @@ Brings the same URL-driven dadbod / dadbod-ui workflow you already use for Postg
 
 A small monorepo for [Pi](https://pi.dev/) coding-agent extensions.
 
-Published packages include [`@clang.engineer/pi-notify`](https://www.npmjs.com/package/@clang.engineer/pi-notify), which sends completion and permission-request notifications using Pi lifecycle events, and [`@clang.engineer/pi-workloop`](https://www.npmjs.com/package/@clang.engineer/pi-workloop), which adds bounded automatic continuation for unattended multi-step work. Both started as personal dotfiles extensions and were extracted into public npm packages with `pi-package` metadata for Pi's package catalog.
+Published packages include [`@clang.engineer/pi-notify`](https://www.npmjs.com/package/@clang.engineer/pi-notify), which sends completion and permission-request notifications using Pi lifecycle events, and [`@clang.engineer/pi-workloop`](https://www.npmjs.com/package/@clang.engineer/pi-workloop), which adds bounded automatic continuation for unattended multi-step work.
+
+#### [harlequin-odbc-vertica](https://github.com/clang-engineer/harlequin-odbc-vertica)
+
+A Harlequin community adapter for Vertica over ODBC, with Vertica-specific catalog and column metadata compatibility fixes.
+
+Published on PyPI as [`harlequin-odbc-vertica`](https://pypi.org/project/harlequin-odbc-vertica/). The official Harlequin documentation PR is currently open at [tconbeer/harlequin-web#163](https://github.com/tconbeer/harlequin-web/pull/163).
 
 ---
 
 ### Projects & Notes
+
+#### [devkit](https://github.com/clang-engineer/devkit)
+
+Curated dev cheatsheets, templates, and concept notes I keep handy.
+
+- **cheatsheets/** — quick references for git, docker, tmux, fzf, jq, ripgrep, curl, ssh, nginx, kubectl, and more
+- **templates/** — boilerplate like Docker Compose + Spring + Postgres, and a Makefile template
+- **notes/** — concept notes: CAP theorem, RSA/AES, SQL injection, SSH vs SSL, Neovim internals, DB ops tips
 
 #### [dotfiles](https://github.com/clang-engineer/dotfiles)
 
@@ -68,14 +76,6 @@ My macOS development environment, all in one place.
 - **macOS** — Hammerspoon window management, Brewfile package management
 
 Managed with chezmoi so the same setup can be reviewed, diffed, and applied reproducibly.
-
-#### [devkit](https://github.com/clang-engineer/devkit)
-
-Curated dev cheatsheets, templates, and concept notes I keep handy.
-
-- **cheatsheets/** — quick references for git, docker, tmux, fzf, jq, ripgrep, curl, ssh, nginx, kubectl, and more
-- **templates/** — boilerplate like Docker Compose + Spring + Postgres, and a Makefile template
-- **notes/** — concept notes: CAP theorem, RSA/AES, SQL injection, SSH vs SSL, Neovim internals, DB ops tips
 
 #### [clang-engineer.github.io](https://github.com/clang-engineer/clang-engineer.github.io)
 
