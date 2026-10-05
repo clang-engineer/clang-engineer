@@ -1,10 +1,10 @@
 ### Hi, I'm clang.engineer 👋
 
-A backend-focused software developer. I majored in statistics and started out with C.  
-These days I build data collection and analysis/visualization tools for general hospitals.
+Backend engineer building developer tools, database adapters, and systems-oriented software.
 
-I work across the frontend too, and I enjoy building things as one flow — from design all the way to the interface.  
-Neovim is my main editor. I care about fundamentals and how things work under the hood, and I keep refining my dev environment.
+I work mainly with Java/Kotlin and TypeScript, and I enjoy following software all the way from design and backend internals to the interface. I also build and publish open-source tools around databases, Neovim, and coding-agent workflows.
+
+I care about fundamentals and how things work under the hood — runtimes, operating systems, networking, databases, and the tools developers use every day. I write down what I learn and turn recurring problems into small, reusable tools.
 
 ---
 
